@@ -1,0 +1,22 @@
+# Compilados
+*.class
+
+# Logs
+*.log
+
+# Directorios de compilación
+/bin/
+/build/
+
+# Configuración de IDEs
+*.iml
+.idea/
+*.ipr
+*.iws
+*.bak
+*.swp
+*.tmp
+*.DS_Store
+
+# Archivos generados
+target/
