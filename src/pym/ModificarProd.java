@@ -856,7 +856,7 @@ public class ModificarProd extends javax.swing.JPanel
                         + "id_Proveedor = " + (opcProveedor.getSelectedItem().toString().split(":")[0] + ", "
                         + "id_Categoria = " + (opcCategoria.getSelectedItem().toString().split(":")[0]));
                 String sentencia = "id = " + opcProductos.getSelectedItem().toString().split(":")[0];
-                if (CRUD.update("Producto", sentencia, valores))
+                if (CRUD.update("Producto", sentencia, valores)==1)
                 {
                     nombrePro.setText("");
                     claveP.setText("");
